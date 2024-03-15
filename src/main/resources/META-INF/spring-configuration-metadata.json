@@ -1,0 +1,26 @@
+{
+  "group": [
+    {
+      "name": "weblog",
+      "type": "io.github.liangyongheng.weblogspringbootstarter.autoconfigure.WeblogProperties",
+      "sourceType": "io.github.liangyongheng.weblogspringbootstarter.autoconfigure.WeblogProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "weblog.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": "true",
+      "sourceType": "io.github.liangyongheng.weblogspringbootstarter.autoconfigure.WeblogProperties",
+      "description": "Enable Or Not Weblog Filter"
+    },
+    {
+      "name": "weblog.order",
+      "type": "java.lang.Integer",
+      "defaultValue": "1",
+      "sourceType": "io.github.liangyongheng.weblogspringbootstarter.autoconfigure.WeblogProperties",
+      "description": "Weblog Filter Order"
+    }
+  ],
+  "hints": []
+}
